@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100vw;
+    overflow-x: none;
+    background-color: background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.navContainer{
+    border: 2px solid maroon;
+    width: 100vw;
+    /* background-color: rgb(238, 26, 139); */
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+#navList{
+    width: 100%;
+    padding: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLogo{
+    font-size: 4rem;
+    color: aqua;
+}
+#navLogo:hover{
+   color: yellow;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+#navItems{
+    display: flex;
+    gap: 3rem;
+}
+.footerBox{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    width: 100%;
+    text-align: center;
+    min-height: 20px; 
+}
+.footerBox p {
+    color: white;
+    font-size: 2rem;
+}
+
+.contentBox{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid rgb(230, 155, 15); */
+    background-color: white;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 3px 3px 30px orangered;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.rightBox img{
+    height: 350px;
+    border-radius: 30px;
+    transition: all 0.3s linear 0s;
+    box-shadow: 3px 3px 30px red;
+    
+}
+.rightBox img:hover{
+    transform: scale(1.05);
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBox h2{
+    color: olive;
+    font-size: 2rem;
+    transition: all 0.3s linear 0s;
+    box-shadow: 3px 3px 20px red;
+    width: 17rem;
+    border-radius: 20px;
+    padding-left: 2rem;
+
+}
+
+.ingBox{
+    color: rgb(2, 141, 141);
+    font-size: 1.4rem;
+}
+
+.recipeBox{
+    color: rgb(6, 239, 228);
+    font-size: 1.1rem;
+}
+.leftBox h2:hover{
+    transform: scale(1.05);
+}
